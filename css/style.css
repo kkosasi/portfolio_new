@@ -1,0 +1,287 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url(https://i.ibb.co/0D8yzqV/bg.jpg) ;
+  background-position: center top, left;
+	background-repeat: no-repeat, no-repeat;
+  background-size: 100%, 100%;
+}
+
+/* Grid CSS */
+.flex-container {
+  display: flex;
+  height: 200px;
+  margin-top: 1000px;
+}
+
+.flex-container > div {
+  color: #9A9A9A;
+  width: 300px;
+  margin: 10px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 30px;
+}
+.flex-container .leftquote {
+  align-self: center;
+  text-align: center;
+  color: #755d33;
+  font-weight: 500;
+  font-size: 200px;
+}
+.flex-container .rightquote {
+  align-self: center;
+  text-align: center;
+  color: #755d33;
+  font-weight: 500;
+  font-size: 200px;
+}
+.flex-container .muldesign {
+  align-self: center;
+  width: 500px;
+  text-align: left;
+  color:  #9A9A9A;
+  font-weight: 600;
+  font-size: 40px;
+}
+.flex-container .isa {
+  align-self: center;
+  width: 200px;
+  text-align: center;
+  color:  #9A9A9A;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+/* arrow bouncing */
+
+.gridChild {
+  margin-left: 50%;
+  margin-top: 15%;
+  align-items: center;
+}
+.bounceMe {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  height: 20px;
+}
+.bounce-4 {
+  animation-name: bounce-4;
+  animation-timing-function: ease;
+}
+@keyframes bounce-4 {
+  0%   { transform: scale(1,1)    translateY(0); }
+  10%  { transform: scale(1.1,.9) translateY(0); }
+  30%  { transform: scale(.9,1.1) translateY(-30px); }
+  50%  { transform: scale(1,1)    translateY(0); }
+  100% { transform: scale(1,1)    translateY(0); }
+}
+
+/* career about me */
+
+.flex-container2 {
+  display: flex;
+  height: 700px;
+  margin-top: 600px;
+}
+.flex-container2 > div {
+  color: #9A9A9A;
+  margin: 10px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 30px;
+}
+.flex-container2 .numberone {
+  align-self: top;
+  text-align: right;
+  color: #755d33;
+  width: 600px;
+  font-weight: 800;
+  font-size: 200px;
+}
+.flex-container2 .career {
+  align-self: left;
+  text-align: left;
+  color: #755d33;
+  font-weight: 100;
+  font-size: 50px;
+  width: 700px;
+}
+
+/* personal about me */
+
+.flex-container3 {
+  display: flex;
+  height: 600px;
+  margin-top: 500px;
+}
+.flex-container3 > div {
+  color: #9A9A9A;
+  margin: 10px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 30px;
+}
+.flex-container3 .numbertwo {
+  align-self: top;
+  text-align: right;
+  color: #755d33;
+  width: 700px;
+  font-weight: 800;
+  font-size: 200px;
+}
+.flex-container3 .personal {
+  align-self: left;
+  text-align: left;
+  color: #755d33;
+  font-weight: 100;
+  font-size: 50px;
+  width: 700px;
+}
+.footer {
+  color: white;
+  align-items: flex-end;
+  text-align: right;
+  margin: 20px;
+  padding: 20px;
+}
+
+/* first top page CSS */
+
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+#headline {
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 5px solid #FF6200;
+position: absolute;
+top: 100px;
+right: -50px;
+z-index: 100;
+padding: 25px;
+  
+}
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+#navBar h1 {
+  width: 25%;
+  font-weight: 500;
+  
+}
+#navigation {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  padding: 20px;
+}
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0px 50px;
+}
+#home1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+}
+#portfoliotext {
+  display: flex;
+  margin-left: 1220px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#portfolio {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+}
+
+.container {
+  padding-right: 50px;
+}
+.highlight {
+  color: white;
+  font-weight: 500;
+  border-bottom: 2px solid #755d33;
+  width: auto;
+  align-items: center;
+}
+
+
+/* Typography CSS */
+
+/* h2 is karen kosasi */
+p {
+  color: #9A9A9A;
+}
+
+h1 {
+  font-size: 150px;
+  font-weight: 100;
+  margin: 0px 0px;
+  color: #232323;
+  margin-bottom: -50px;
+}
+
+/* h2 is xxxx */
+
+h2 {
+  font-size: 150px;
+  font-weight: 100;
+  margin: 0px 0px;
+  color: #232323;
+  margin-bottom: -50px;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0px 0px;
+  color: #9A9A9A;
+  margin-bottom: -50px;
+  line-height: 40px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0px 0px;
+  color: #9A9A9A;
+  margin-bottom: -50px;
+}
+h5 {
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0px 0px;
+  color: #9A9A9A;
+  margin-bottom: -50px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+#headline p {
+  max-width: 350px;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px 0px;
+  color: #9A9A9A;
+}
+
