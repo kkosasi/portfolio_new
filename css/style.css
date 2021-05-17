@@ -1,0 +1,505 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: url(https://i.ibb.co/DrXwyj3/Artboard-1.jpg) ;
+  background-position: center top, left;
+	background-repeat: no-repeat, no-repeat;
+  background-size: 100%, 100%;
+}
+
+/* Grid CSS */
+.flex-container {
+  display: flex;
+  height: 200px;
+  margin-top: 1100px;
+}
+
+.flex-container > div {
+  color: #9A9A9A;
+  width: 300px;
+  margin: 10px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 30px;
+}
+.flex-container .leftquote {
+  align-self: center;
+  text-align: center;
+  color: #755d33;
+  font-weight: 500;
+  font-size: 200px;
+}
+.flex-container .rightquote {
+  align-self: center;
+  text-align: center;
+  color: #755d33;
+  font-weight: 500;
+  font-size: 200px;
+}
+.flex-container .muldesign {
+  align-self: center;
+  width: 500px;
+  text-align: left;
+  color:  #9A9A9A;
+  font-weight: 600;
+  font-size: 40px;
+}
+.flex-container .isa {
+  align-self: center;
+  width: 200px;
+  text-align: center;
+  color:  #9A9A9A;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+/* arrow bouncing */
+
+.gridChild {
+  margin-left: 50%;
+  margin-top: 15%;
+  align-items: center;
+}
+.bounceMe {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  height: 20px;
+}
+.bounce-4 {
+  animation-name: bounce-4;
+  animation-timing-function: ease;
+}
+@keyframes bounce-4 {
+  0%   { transform: scale(1,1)    translateY(0); }
+  10%  { transform: scale(1.1,.9) translateY(0); }
+  30%  { transform: scale(.9,1.1) translateY(-30px); }
+  50%  { transform: scale(1,1)    translateY(0); }
+  100% { transform: scale(1,1)    translateY(0); }
+}
+
+/* career about me */
+
+.flex-container2 {
+  display: flex;
+  height: 700px;
+  margin-top: 800px;
+}
+.flex-container2 > div {
+  color: #9A9A9A;
+  margin: 10px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 30px;
+}
+.flex-container2 .numberone {
+  align-self: top;
+  text-align: right;
+  color: #755d33;
+  width: 600px;
+  font-weight: 800;
+  font-size: 200px;
+}
+.flex-container2 .career {
+  align-self: left;
+  text-align: left;
+  color: #755d33;
+  font-weight: 100;
+  font-size: 50px;
+  width: 700px;
+}
+
+/* personal about me */
+
+.flex-container3 {
+  display: flex;
+  height: 600px;
+  margin-top: 500px;
+}
+.flex-container3 > div {
+  color: #9A9A9A;
+  margin: 10px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 30px;
+}
+.flex-container3 .numbertwo {
+  align-self: top;
+  text-align: right;
+  color: #755d33;
+  width: 700px;
+  font-weight: 800;
+  font-size: 200px;
+}
+.flex-container3 .personal {
+  align-self: left;
+  text-align: left;
+  color: #755d33;
+  font-weight: 100;
+  font-size: 50px;
+  width: 700px;
+}
+
+
+/* UX SKILLS */
+
+.flex-container4 {
+  display: flex;
+  height: 600px;
+  margin-top: 700px;
+}
+.flex-container4 > div {
+  color: #9A9A9A;
+  margin: 10px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 30px;
+}
+.flex-container4 .numberthree {
+  align-self: top;
+  text-align: right;
+  color: #755d33;
+  width: 500px;
+  font-weight: 800;
+  font-size: 200px;
+}
+.flex-container4 .uxskills {
+  align-self: left;
+  text-align: left;
+  color: #755d33;
+  font-weight: 100;
+  font-size: 50px;
+  width: 700px;
+}
+
+.flexboxuxskills {
+  display: flex;
+  width: 900px;
+  margin-top: 0px;
+  flex-direction: column;
+}
+
+.flexboxuxskills > div {
+  margin: 30px;
+  width: 800px;
+  height: 200px;
+  margin: 10px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 30px;
+ padding: 20px;
+ border: 4px solid #755D33;
+ background-color: black;
+}
+
+img {
+  float: left;
+  padding: 0px;
+  margin-right: 20px;
+}
+
+.uxrighttext {
+margin: 0px;
+flex-direction: row;
+}
+
+/* my work */
+
+.flex-container5 {
+  display: flex;
+  height: 600px;
+  margin-top: 800px;
+}
+.flex-container5 > div {
+  color: #9A9A9A;
+  margin: 10px;
+  text-align: left;
+  line-height: 40px;
+  font-size: 30px;
+}
+.flex-container5 .numberfour {
+  align-self: top;
+  text-align: right;
+  color: #755d33;
+  width: 500px;
+  font-weight: 800;
+  font-size: 200px;
+}
+.flex-container5 .worksamples {
+  align-self: left;
+  text-align: left;
+  color: #755d33;
+  font-weight: 100;
+  font-size: 50px;
+  width: 700px;
+}
+
+.forbackgroundspacing {
+  margin-top: 20px;
+  height: 100px;
+}
+
+#box {
+  width: 822px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
+  border-bottom: 2px solid #755D33;
+  border-right: 2px solid #755D33;
+  margin: 5% auto 0 auto;
+  background: url(https://goodmockups.com/wp-content/uploads/2017/09/Free-Mobile-App-Mockup-PSD.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#box1 {
+  width: 822px;
+  height: 300px;
+  box-shadow: inset 1px 1px 40px 0 rgba(0, 0, 0, 0.45);
+  border-bottom: 2px solid #755D33;
+  border-right: 2px solid #755D33;
+  margin: 5% auto 0 auto;
+  background: url(https://graphicburger.com/wp-content/uploads/2014/01/App-Screens-Perspective-MockUp-full.jpg);
+  background-size: cover;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#overlay {
+  width: 822px;
+  height: 300px;
+  background: rgba(0, 0, 0, 0.75);
+  text-align: center;
+  padding: 45px 0 66px 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease;
+  -moz-transition: opacity 0.25s ease;
+}
+
+#box:hover #overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#box1:hover #overlay {
+  opacity: 1;
+  cursor: pointer;
+}
+
+#plus {
+  font-family: Poppins;
+  font-weight: 500;
+  color: #755D33;
+  font-size: 20px;
+  text-align: center;
+  align-self: baseline;
+}
+
+/* first top page CSS */
+
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+#headline {
+  background-color: rgba(255,255,255,0.8);
+  border-bottom: 5px solid #FF6200;
+position: absolute;
+top: 100px;
+right: -50px;
+z-index: 100;
+padding: 25px;
+  
+}
+.heroGridArea {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-items: center;
+  display: flex;
+  position: relative;
+  
+}
+#navBar {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  
+}
+#navBar h1 {
+  width: 25%;
+  font-weight: 500;
+  
+}
+#navigation {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  padding: 20px;
+  
+}
+#navigation p {
+  cursor: pointer;
+  text-decoration: none;
+  padding: 0px 50px;
+}
+#home1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 300px;
+}
+#portfoliotext {
+  display: flex;
+  margin-left: 1200px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+#portfolio {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+}
+
+.container {
+  padding-right: 50px;
+}
+.highlight {
+  color: white;
+  font-weight: 500;
+  border-bottom: 2px solid #755d33;
+  width: auto;
+  align-items: center;
+}
+
+/* BUTTON CONTACT */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,800);
+
+*, *:before, *:after{
+  box-sizing: border-box;
+  padding: 0; margin: 0;
+  text-decoration: none;
+  color: #755D33;
+}
+
+  section.container{
+    min-width: 500px;
+    margin: 10% auto;
+    text-align: center;
+  }
+    a:hover{border-bottom: 1px solid #755D33;} 
+
+
+    button:hover{cursor: pointer}
+    button {
+      background: transparent; outline: none;
+      position: relative;
+      border: 2px solid #755D33;
+      padding: 15px 50px;
+      overflow: hidden;
+    }
+
+    /*button:before (attr data-hover)*/
+    button:hover:before{opacity: 1; transform: translate(0,0);}
+    button:before{
+      content: attr(data-hover);
+      position: absolute;
+      top: 1.1em; left: 0;
+      width: 100%;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+      font-weight: 800;
+      font-size: .8em;
+      opacity: 0;
+      transform: translate(-100%,0);
+      transition: all .3s ease-in-out;
+    }
+      /*button div (button text before hover)*/
+      button:hover div{opacity: 0; transform: translate(100%,0)}
+      button div{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 800;
+        font-size: .8em;
+        transition: all .3s ease-in-out;
+      }
+
+
+
+/* Typography CSS */
+
+/* h2 is karen kosasi */
+p {
+  color: #9A9A9A;
+}
+
+h1 {
+  font-size: 150px;
+  font-weight: 100;
+  margin: 0px 0px;
+  color: #232323;
+  margin-bottom: -50px;
+}
+
+/* h2 is xxxx */
+
+h2 {
+  font-size: 150px;
+  font-weight: 100;
+  margin: 0px 0px;
+  color: #232323;
+  margin-bottom: -50px;
+}
+h3 {
+  font-size: 15px;
+  font-weight: 300;
+  margin: 0px 0px;
+  color: #9A9A9A;
+  margin-bottom: -50px;
+  line-height: 40px;
+  font-weight: bold;
+}
+h4 {
+  font-size: 50px;
+  font-weight: 800;
+  margin: 0px 0px;
+  color: #9A9A9A;
+  margin-bottom: -50px;
+}
+h5 {
+  font-size: 13px;
+  font-weight: 300;
+  margin: 0px 0px;
+  color: #9A9A9A;
+  margin-bottom: -50px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+h6 {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 0px 0px;
+  color: #9A9A9A;
+  margin-bottom: -70px;
+}
+#headline p {
+  max-width: 350px;
+  font-size: 16px;
+  font-weight: 300;
+  margin: 0px 0px;
+  color: #9A9A9A;
+}
+
+.footer {
+  color: white;
+  align-items: flex-end;
+  text-align: right;
+  margin: 20px;
+  padding: 20px;
+}
